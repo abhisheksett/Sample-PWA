@@ -1,62 +1,4 @@
-<p align='center'>
-  <a href="https://mike.works" target='_blank'>
-    <img height=40 src='https://assets.mike.works/img/login_logo-33a9e523d451fb0d902f73d5452d4a0b.png' />
-  </a> 
-</p>
-<p align='center'>
-  <a href="https://mike.works/course/progressive-web-fundamentals-0d74af5" target='_blank'>
-    <img height=150 src='https://user-images.githubusercontent.com/558005/28080773-5f563b0c-666d-11e7-82e1-40d7320b73ce.png' />
-  </a>
-</p>
 
-<p align='center'>
-  <a href="https://greenkeeper.io/" title="Dependencies">
-    <img title="Greenkeeper" src="https://badges.greenkeeper.io/mike-north/pwa-fundamentals.svg"/>
-  </a>
-  <a href="https://travis-ci.org/mike-north/pwa-fundamentals" title="Build Status">
-    <img title="Build Status" src="https://travis-ci.org/mike-north/pwa-fundamentals.svg?branch=solutions"/>
-  </a>
-  <a href="https://mike.works/course/progressive-web-fundamentals-0d74af5" title="Modern JavaScript">
-    <img title="Course Outline" src="https://img.shields.io/badge/mike.works-course%20outline-blue.svg"/>
-  </a>
-  <a href="https://docs.mike.works/pwa-fundamentals" title="Slides">
-    <img title="Slides" src="https://img.shields.io/badge/mike.works-slides-blue.svg"/>
-  </a>
-</p>
-<p align='center'>
-This is the example project used for the <a title="Mike Works, Inc." href="https://mike.works">Mike</a> and <a href="http://stevekinney.net">Steve's</a> <a title="PWA Fundamentals" href="https://mike.works/course/progressive-web-fundamentals-0d74af5">PWA Fundamentals</a> course.
-</p>
-
-# About This Workshop
-
-Progressive Web Apps become superheroes when they can, while still providing a great baseline experience on less modern browsers.  They're reliable, fast, engaging, and although they can do many of the things users expect from native apps, they don't take up a lot of space, or require a long install process.
-
-In this workshop, we'll begin with a "classic" single page app, that's a bit bulky in size, has a slow initial load, doesn't work offline, and provides a very "basic" mobile web experience. We'll then enhance it in several ways, so that when key technologies are supported in your users' browsers, their experience ends up being substantially better!
-
-# What will we do?
-
-<img width=150 align="right" src='https://user-images.githubusercontent.com/558005/28242665-55010010-69ba-11e7-869a-adb94ae026f9.png' />
-
-First, we’ll add any mobile-specific metadata to the app, and look at how we can use android studio and the iOS simulator to test out our improvements. In order to reduce our page weight a little bit, we'll discuss how to choose between image types like png and jpeg, and some recent advances in compression.
-
-Next, we'll add a service worker, and apply a few caching strategies to ultimately allow our app to work offline! Additionally, we'll take advantage of IndexedDb, so that new data created on a mobile device can be stored as a structured record, available both in our application and service worker scopes.
-
-Then, we'll make use of Web Push and Notifications to engage our users  bring them back into the app, and explore encryption and signing techniques that ensure our web clients only get messages that originate from our servers. 
-
-Finally, we’ll use Background Sync to further reduce our app’s dependency on a network connection, enabling it to be a free-standing piece of software that synchronizes with the rest of the world when possible.
-
-
-### By coding along in this workshop, you will…
-* Learn how to audit a web application for “Progressive Web Fitness" with Lighthouse, and to measure important performance metrics like "time to first load" and "time to interactive"
-* Take a "classic" client-side-rendered single-page app, and make it work offline, without changing a single line of the app's code. 
-* Get hands-on experience with IndexedDb, a worker-friendly nosql database that's built in to most browsers.
-* Build an example of the App-Shell architecture, where large portions of the UI load almost instantly
-* Learn what you can do to keep your JavaScript code fast, by taking a look at some aspects of JavaScript engines, and taking advantage of some tools to keep us on the speedy path.
-* And much more...
-
-
-# Are there any documents that go along with this?
-Yes! **[Here are the slides](/docs/Slides.pdf)**, and **[here's a course outline](https://mike.works/course/progressive-web-fundamentals-0d74af5)**.
 
 # Setup
 
@@ -208,33 +150,4 @@ This will be an an optimized version of the exercise
 * [SQLite3](https://www.sqlite.org/) - as a lightweight, embedded database (for API)
 * [Express](http://expressjs.com/) - as a HTTP server for our API.
 
-# License
-While the general license for this project is the BSD 3-clause, the exercises
-themselves are proprietary and are licensed on a per-individual basis, usually
-as a result of purchasing a ticket to a public workshop, or being a participant
-in a private training.
-
-Here are some guidelines for things that are **OK** and **NOT OK**, based on our
-understanding of how these licenses work:
-
-### OK
-* Using everything in this project other than the exercises (or accompanying tests) 
-to build a project used for your own free or commercial training material
-* Copying code from build scripts, configuration files, tests and development 
-harnesses that are not part of the exercises specifically, for your own projects
-* As an owner of an individual license, using code from tests, exercises, or
-exercise solutions for your own non-training-related project.
-
-### NOT OK (without express written consent)
-* Using this project, or any subset of 
-exercises contained within this project to run your own workshops
-* Writing a book that uses the code for these exercises
-* Recording a screencast that contains one or more of this project's exercises 
-
-
-# Copyright
-
-&copy; 2017 [Mike Works, Inc.](https://mike.works) and [Steve Kinney](http://www.stevekinney.net), All Rights Reserved
-
-###### This material may not be used for workshops, training, or any other form of instructing or teaching developers, without express written consent
 
